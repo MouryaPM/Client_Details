@@ -1,0 +1,40 @@
+.container {
+  margin-top: 150px;
+}
+
+.card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.card-header {
+  height: 30%;
+  background-color: chocolate;
+  color: white;
+  text-align: center;
+}
+.card-header p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.details {
+  padding: 4px 16px;
+}
+
+.edit {
+  background-color: lawngreen;
+  cursor: pointer;
+  margin: 4px 2px;
+  font-size: 1rem;
+  border-radius: 6px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  padding: 5px 8px;
+  font: inherit;
+}

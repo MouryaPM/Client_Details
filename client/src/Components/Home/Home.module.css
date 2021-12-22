@@ -1,0 +1,55 @@
+.container {
+  margin: 1rem auto;
+}
+.th {
+  justify-content: center;
+}
+.table {
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  max-width: 800px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.table thead tr {
+  background-color: teal;
+  color: white;
+  text-align: left;
+}
+.table th,
+.table td {
+  padding: 12px 15px;
+}
+.table tbody tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.table tbody tr:nth-of-type(even) {
+  border-bottom: #f3f3f3;
+}
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid steelblue;
+}
+.btn {
+  font: inherit;
+  color: white;
+  padding: 5px 8px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.edit {
+  background-color: lawngreen;
+}
+.delete {
+  background-color: tomato;
+}
+.view {
+  background-color: thistle;
+}

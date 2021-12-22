@@ -1,0 +1,33 @@
+.header {
+  background-color: blueviolet;
+  overflow: hidden;
+}
+.header p {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1rem;
+  border-radius: 6px;
+  display: block;
+}
+
+.header p.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.header-right {
+  float: right;
+  display: flex;
+}
+
+.active {
+  background: tan;
+}
+.header-right p:hover {
+  background-color: thistle;
+  color: black;
+}
